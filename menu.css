@@ -1,0 +1,456 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.menus{
+    position: relative;
+    background: #111;
+}
+.menus img{
+   width: 100%;
+   object-fit: contain; 
+   height: 30%;
+   opacity: 0.4;
+}
+.menus h3{
+    font-size: 40px;
+    position: absolute;
+    right: 5%;
+    padding: 15px;
+    margin: 15px;
+    font-weight: bold;
+    color: rgb(225, 225, 255);
+    text-transform: uppercase;
+    top: 40%;
+width: 15%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}
+@media only screen and (max-width: 768px){
+    .menus h3{
+        font-size: 20px;
+        margin-top: 4%;
+    }
+}
+.content{
+    position: relative;
+    padding: 8px;
+
+}
+.content p{
+    text-transform: 1000;
+    font-size: 30px;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.starters{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('images/egg\ with\ spice.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+  background-position: center;
+  width: 100%;
+  height: 50vh;
+}
+.starters p{
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+   left: 10%;
+   right: 10%;
+    font-size: 40px;margin-top: 3%;
+    text-transform: uppercase;font-size: 25px;
+}
+.starters a{
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 32%;
+    right: 9%;
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 10px;
+    width: 30%;
+    color: white;
+    font-size: 30px;transition: 0.7s;
+    text-decoration: none;
+    text-transform: uppercase;margin-top: 16%;
+}
+.starters a:hover{
+    background: white;
+    color: black;
+}
+.main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/assorted\ vegetables.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center;
+    width: 100%;
+    height: 50vh; 
+}
+.main p{
+    text-align: center;
+    position: absolute;
+    color: white;
+    padding: 10px;
+    right: 20%;
+    left: 20%;
+    margin-top: 6%;
+    font-size: 40px;
+    text-transform: uppercase; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main a{
+    position: absolute;
+    left: 32%;
+    right: 9%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 10px;
+    width: 30%;
+    color: white;
+    font-size: 30px;transition: 0.7s;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 17%;
+}
+.main a:hover{
+    background: white;
+    color: black;
+}
+.drinks{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/trends\ drinks.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center;
+    width: 100%;
+    height: 50vh; 
+}
+.drinks p{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    color: white;
+    padding: 10px;
+    right: 20%;
+    left: 20%;
+    margin-top: 2%;
+    font-size: 40px;
+    text-transform: uppercase; 
+}
+.drinks a{
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 32%;
+    right: 9%;
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 10px;
+    width: 30%;
+    color: white;
+    font-size: 30px;transition: 0.7s;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 13%;
+}
+.drinks a:hover{
+    background: white;
+    color: black;
+}
+@media only screen and (max-width: 768px){
+    .starters{
+        position: relative;
+        background-attachment: scroll;
+    }
+    .starters p{
+        font-size: 26px;
+margin-top: 18%;
+    }
+    .starters a{
+        font-size: 22px;
+        left: 30%;
+        right: 10%%;
+        margin-top: 39%;
+        width: 40%;
+    }
+    .main{
+        position: relative;
+        background-attachment: scroll;
+    }
+    .main p{
+        font-size: 26px;
+        margin-top: 16%;
+    }
+    .main a{
+        width: 40%;
+        font-size: 22px;
+        left: 30%;
+        right: 10%%;
+        margin-top: 30%;
+    }
+    .drinks{
+        position: relative;
+        background-attachment: scroll;
+    }
+    .drinks p{
+        font-size: 23px;
+        margin-top: 15%;
+    }
+    .drinks a{
+        font-size: 22px;
+        margin-top: 30%;
+        width: 40%;
+        left: 30%;
+        right: 10%%;
+    }
+}
+
+/* giving the function page some styles */
+.function{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/hamburger.jpg');
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+/* stylimg the h1 text */
+.function h1{
+    position: absolute;
+    margin: 15px;
+    padding: 15px;
+    font-weight: lighter;
+    margin-top: 20%;
+    border: 1px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+.functions p{
+    margin: 15px;
+    padding: 15px;
+    font-size: 17px;
+
+}
+
+/* giving the main menu some styles */
+.menus1{
+    width: 100%;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('images/trends\ drinks.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('images/trends\ drinks.jpg');
+    overflow: hidden;
+    height: 600px;
+    
+}
+.menus1 h3{
+    font-size: 30px;
+    position: absolute;
+    right: 5%;
+    padding: 15px;
+    margin: 15px;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 5%;border: 1px solid lightgray;
+    border-radius: 8px;margin-top: 10%%;
+}
+/*  styling the menu section*/
+.menus2{
+   position: relative;
+   background: black; 
+   height: auto;
+}
+.menus2 img{
+    width: 100%;
+    object-fit: contain;
+    opacity: 0.4;
+}
+.menus2 h3{
+    font-size: 30px;
+    position: absolute;
+    right: 5%;
+    padding: 15px;
+    font-weight: lighter;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 5%;border: 1px solid lightgray;
+    border-radius: 8px;
+    top: 30%;
+   
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menus3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/pizza.jpg');
+    width: 100%;
+    height: 79vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menus3 h3{
+    font-size: 30px;
+    position: absolute;
+    right: 5%;
+    padding: 15px;
+    margin: 15px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 5%;border: 1px solid lightgray;
+    border-radius: 8px;margin-top: 10%%;
+}
+
+@media only screen and (max-width: 768px){
+    .menus1 h3{
+       margin-top: 20%;
+       font-size: 18px;
+    }
+    .menus2 h3{
+        margin-top: 20%;
+        font-size: 18px;
+     }
+     .menus3 h3{
+        margin-top: 20%;
+        font-size: 18px;
+     }
+}
+.start{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+.start h2{
+    text-align: center;
+    margin-top: 17px;
+    font-size: 32px;
+}
+.start p{
+    text-align: center;
+    font-size: 26px;
+    padding: 15px;
+    margin: 13px;
+}
+.static{
+width: auto;
+    position: relative;
+}
+.static img{
+    background:  #c33764;;
+    width: 60%;
+   border-radius: 8px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 3px solid lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
