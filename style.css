@@ -51,6 +51,7 @@ background-color: #fff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
   .container-cont{
     width: 100%;
@@ -77,8 +78,67 @@ background-color: #fff;
   .information a{
     color: #fff;
     text-decoration: none;
-    text-transform: capitalize;
   }
   .bg{
     background-color: #111;
   }
+  i{
+    /* color: red;
+    padding: 10px; */
+    margin-right: 5px;
+  }
+  @media (max-width: 1111px) {
+    .carousel-text{
+      top: 23em;
+    }
+  }
+  @media (max-width: 1024px) {
+    .carousel-text{
+      top: 21em;
+    }
+  }
+  @media (max-width: 768px) {
+    .carousel-text{
+      top: 13em;
+    }
+    .carousel-text h5{
+      font-size: 30px;
+    }
+  }
+  @media (max-width: 425px) {
+    .carousel-text{
+      top: 6em;
+    }
+    .carousel-text h5{
+      font-size: 18px;
+    }
+    .carousel-text p{
+      font-size: 15px;
+    }
+    .carousel-text a{
+      font-size: 12px;
+    }
+    .card-add-con .texts{
+      font-size: 15px;
+      /* background-color: red; */
+    }
+    .card-add-con{
+      /* background-color: #146c43; */
+      padding: 0;
+      margin: 0;
+    }
+  }
+@media (max-width: 375px) {
+  .carousel-text{
+    top: 6em;
+  }
+  .carousel-text h5{
+    font-size: 18px;
+  }
+  .carousel-text p{
+    font-size: 15px;
+  }
+  .carousel-text a{
+    font-size: 12px;
+  }
+}
