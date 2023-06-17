@@ -25,9 +25,9 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 mavss">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active link-primary:hover" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Link</a>
@@ -41,6 +41,8 @@
                     <li><a class="dropdown-item" href="#">Drinks</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="#">Events</a></li>
+                    <li><a class="dropdown-item" href="#">My Account</a></li>
+                    <li><a class="dropdown-item" href="#">Wish List</a></li>
                   </ul>
                 </li>
                 <li class="nav-item">
@@ -60,7 +62,7 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="images/restaurant-table-setting (1).jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption">
+                  <div class="carousel-caption" >
                     <h5>Welcome To Our Restaurant</h5>
                     <p class="display-1">LOVES HEALTHY FOOD</p>
                     <a href="#" class="lead" role="button">Order Now</a>
@@ -96,26 +98,38 @@
     </header>
     <main>
       <div class="row g-0 container-fluid">
-        <div class="col-sm-6 col-md-8 bg-white p-2">
+        <div class="col-sm-6 col-md-7 bg-white p-2">
           <h3 class="display-5 mx-3 p-3 text-secondary">About Pure Restaurant</h3>
           <p class="lead p-2 m-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos eius aspernatur, quam atque nihil optio fuga. Omnis unde voluptate consectetur exercitationem architecto facilis repellendus ducimus cum, saepe amet nesciunt minima aliquam distinctio doloribus odit inventore quasi, eveniet itaque! Commodi, autem.</p>
           <a class="btn btn-success mx-3 lead" href="#" role="button">Read More</a>
         </div>
-        <div class="col-6 col-md-4 bg-white p-2">
+        <div class="col-6 col-md-5 bg-white p-2">
           <img src="images/dinner.jpg" class="w-100 m-1 p-3" alt="">
         </div>
       </div>
+      <!-- === POPULAR DISHES SECTION=== -->
+      
       <div class="container-fluid bg-light p-2 text-center">
-        <h3 class="text-center display-5 p-1 m-1">our popular dishes</h3>
+        <h3 class="text-center display-5 p-1 m-1">Our Popular Dishes</h3>
         <!-- <hr class="divider w-50 text-center"> -->
         <p class="text-center w-100 paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet maxime aperiam aspernatur ipsum soluta quibusdam. Expedita doloribus alias ut esse.</p>
 <!-- == card section == -->
 <div class="card-group m-3 p-3">
   <div class="card m-2">
-    <img src="images/dinner.jpg" class="card-img-top" alt="...">
+    <img src="images/portfolio-9.jpg" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title h4">Card title</h5>
-      <p class="card-text lead">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium reiciendis quisquam suscipit deleniti neque ducimus ea nulla doloribus. Magni ipsum hic quasi at doloremque odio amet voluptatem iusto distinctio blanditiis?</p>
+      <div class="card-add-con">
+        <span class="lead">Grilled Chicken</span>
+        <div class="icons">
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-half-sharp"></ion-icon>
+        </div>
+      </div>
       <a href="#" role="button" class=" btn btn-success btn-md">View All</a>
 
     </div>
@@ -124,20 +138,42 @@
     </div>
   </div>
   <div class="card m-2">
-    <img src="..." class="card-img-top" alt="...">
+    <img src="images/portfolio-9.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <h5 class="card-title h3">Grilled Italian Chicken</h5>
+      <p class="card-text lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, aspernatur. Error quam mollitia corrupti totam obcaecati, nisi praesentium sed explicabo dolor itaque ullam voluptatum! Nobis neque consectetur et molestiae tempore.</p>
+      <div class="card-add-con">
+        <span class="lead">Grilled Chicken</span>
+        <div class="icons">
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-half-sharp"></ion-icon>
+        </div>
+      </div>
+      <a href="#" class="btn btn-success md" role="button"> View All</a>
     </div>
     <div class="card-footer">
       <small class="text-muted">Last updated 3 mins ago</small>
     </div>
   </div>
   <div class="card m-2">
-    <img src="..." class="card-img-top" alt="...">
+    <img src="images/portfolio-7.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <h5 class="card-title h3">Card title</h5>
+      <p class="card-text lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus quam voluptatem sint modi autem deleniti placeat reiciendis repudiandae harum ut? Pariatur ut, molestiae vel sunt exercitationem modi repellendus quia recusandae.</p>
+      <div class="card-add-con">
+        <span class="lead">Grilled Chicken</span>
+        <div class="icons">
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-half-sharp"></ion-icon>
+        </div>
+      </div>
+      <a href="#" class="btn btn-success md" role="button"> View All</a>
     </div>
     <div class="card-footer">
       <small class="text-muted">Last updated 3 mins ago</small>
@@ -146,30 +182,63 @@
 </div>
 <div class="card-group m-3 p-3">
   <div class="card m-2">
-    <img src="..." class="card-img-top" alt="...">
+    <img src="/images/portfolio-7.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 class="card-title h3">Card title</h5>
+      <p class="card-text lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, dolorem unde. Molestias aliquam sit inventore culpa minus sequi commodi esse ex id eaque quia voluptatem soluta accusantium, corporis voluptate!</p>
+      <div class="card-add-con">
+        <span class="lead">Grilled Chicken</span>
+        <div class="icons">
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-half-sharp"></ion-icon>
+        </div>
+      </div>
+      <a href="#" class="btn btn-success md" role="button"> View All</a>
     </div>
     <div class="card-footer">
       <small class="text-muted">Last updated 3 mins ago</small>
     </div>
   </div>
   <div class="card m-2">
-    <img src="..." class="card-img-top" alt="...">
+    <img src="images/portfolio-9.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <h5 class="card-title h3">Card title</h5>
+      <p class="card-text lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam tempore qui, sunt optio voluptatibus reiciendis reprehenderit labore quidem eveniet amet quo nostrum hic aspernatur nihil eius asperiores modi obcaecati aperiam?</p>
+      <div class="card-add-con">
+        <span class="lead">Grilled Chicken</span>
+        <div class="icons">
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-half-sharp"></ion-icon>
+        </div>
+      </div>
+      <a href="#" class="btn btn-success md" role="button"> View All</a>
     </div>
     <div class="card-footer">
       <small class="text-muted">Last updated 3 mins ago</small>
     </div>
   </div>
   <div class="card m-2">
-    <img src="..." class="card-img-top" alt="...">
+    <img src="images/portfolio-9.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <h5 class="card-title h3">Card title</h5>
+      <p class="card-text lead">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <div class="card-add-con">
+        <span class="lead">Grilled Chicken</span>
+        <div class="icons">
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-sharp"></ion-icon>
+          <ion-icon class="text-warning" name="star-half-sharp"></ion-icon>
+        </div>
+      </div>
+      <a href="#" class="btn btn-success md" role="button"> View All</a>
     </div>
     <div class="card-footer">
       <small class="text-muted">Last updated 3 mins ago</small>
@@ -177,9 +246,146 @@
   </div>
 </div>
       </div>
+      <!-- == EVENTS AND HAPPENINGS == -->
+
+      <div class="container-fluid row g-0" >
+       <h3 class="display-5 text-center text-secondary">EVENTS & HAPPENINGS</h3>
+       <small class="lead p-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos molestiae blanditiis distinct io molestias id doloribus iste perspiciatis .</small>
+         <div class=" col-sm-6 col-md-6 bg-white p-3">
+          <h3 class="display5 text-left p-3 m-3">Lorem ipsum dolor sit amet.</h3>
+          <p class="text-left lead p-3 mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nulla itaque sapiente provident. Consequuntur, ad assumenda atque nisi doloribus quis natus vitae est inventore eos velit temporibus mollitia deserunt, omnis quo perferendis minima. Dolores beatae officia nulla, aperiam eum asperiores facilis maiores quis molestiae? Eligendi, blanditiis! Fuga laboriosam excepturi voluptatibus.</p>
+          <a href="#" class="btn btn-success mx-4" role="button">Read More</a>
+        </div>
+        <div class=" col-sm-6 col-md-6 bg-white">
+<img src="images/background.jpg" class="w-100 p-5" alt="">
+        </div>
+
+        <div class=" col-sm-6 col-md-6 bg-white p-3">
+          <img src="/images/Food-Sandwich-Backgrounds.jpg" class="w-100 p-5" alt="">
+        </div>
+        <div class=" col-sm-6 col-md-6 bg-white">
+          <h3 class="display5 text-left p-3 m-3">Lorem ipsum dolor sit amet.</h3>
+          <p class="text-left lead p-3 mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nulla itaque sapiente provident. Consequuntur, ad assumenda atque nisi doloribus quis natus vitae est inventore eos velit temporibus mollitia deserunt, omnis quo perferendis minima. Dolores beatae officia nulla, aperiam eum asperiores facilis maiores quis molestiae? Eligendi, blanditiis! Fuga laboriosam excepturi voluptatibus.</p>
+          <a href="#" class="btn btn-success mx-4" role="button">Read More</a>
+        </div>
+      </div>
+
+      <!-- === Tesimonials === -->
+      <div id="carouselExampleIndicators" class="carousel slide bg-light p-2" data-bs-ride="carousel">
+        <h1 class="text-center text-secondary">TESTIMONIAL</h1>
+        <p class="text-center lead text-secondary">what our customers are saying</p>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card mb-3 center" style="max-width: 640px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="images/profile-img.jpg" class="img-fluid rounded-start" alt="profile-img">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title display-6 fs-2">Ryder Flyn</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <a href="#" class=" btn btn-success">Read More</a>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+          <div class="carousel-item">
+            <div class="card mb-3 center" style="max-width: 640px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="images/testimonials-1.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title display-6 fs-2">Felix Gunn</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <a href="#" class=" btn btn-success">Read More</a>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+          <div class="carousel-item">
+            <div class="card mb-3 center" style="max-width: 640px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="images/testimonials-2.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title display-6 fs-2">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <a href="#" class=" btn btn-success">Read More</a>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
     </main>
-    <footer></footer>
+    <!-- === footer section === -->
+
+  
+
+    <footer class="bg p-3 container-fluid">
+      <div class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}">
+
+  <div class="address col-sm-6 col-md-4 p-2 m-2">
+    <h3 class="display-6 fs-4 text-white">Address</h3>
+   <a href="#"> <i class="fa fa-map-marker" aria-hidden="true"></i> Lorem ipsum dolor.</a>
+   <a href="#"><i class="fa fa-phone" aria-hidden="true" role="cell"></i> 0987654321</a>
+   <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>example@gmail.com</a>
+  </div>
+  <div class="information col-sm-6 col-md-5 m-2 p-2">
+    <h3 class="display-6 fs-4 text-white">Information</h3>
+    <a href="#">about us</a>
+    <a href="#">delivery information</a>
+    <a href="#">privacy policy</a>
+    <a href="#">terms & conditions</a>
+    <a href="#">site map</a>
+  </div>
+  <div class="account col-sm-3 col-md-4 m-2 p-2">
+    <h3 class="display-6 fs-4 text-white">My Account</h3>
+    <a href="#">my account</a>
+    <a href="#">order history</a>
+    <a href="#">wish list</a>
+    <a href="#">newsletter</a>
+    <a href="#">returns</a>
+  </div>
+  <div class="newsletter col-sm-3 col-md-4 m-2 p-2">
+    <h3 class="text-white display-6 fs-4">Newsletter</h3>
+    <small class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet vel corporis minima culpa velit illum, pariatur ipsa.</small>
+    <form action="">
+      <input class="form-control me-2 shadow" type="email" placeholder="email" aria-label="email">
+      <button class="btn btn-outline-light shadow m-2" type="submit">Subscribe</button>
+    </form>
+  </div>
+</div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- icon library -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

@@ -8,14 +8,17 @@
       color: #fff;
       font-size: 1.6em;
   }
-  .nav-item a:hover{
-      background-color: #dc3545;
+  /* .nav-item a:hover{
+      background-color: #146c43;
       padding: 10px;
       color: #fff;
-  }
- li a:hover{
+  } */
+  /* .mavss li{
+    color: #fff;
+  } */
+ /* li a:hover{
       color: #fff;
-  }
+  } */
   .carousel-caption{
 position: absolute;
 top: 30em;
@@ -29,7 +32,7 @@ top: 30em;
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
   }
   .carousel-caption a{
-    background-color: #dc3545;
+    background-color: #146c43;
     color: #fff;
     padding: 10px;
     text-decoration: none;
@@ -43,4 +46,39 @@ background-color: #fff;
   }
   .paragraph{
     margin-inline: auto;
+  }
+  .card-add-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .container-cont{
+    width: 100%;
+    position: relative;
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.682), rgba(0, 0, 0, 0.682)), url('images/background.jpg');
+  }
+  .center{
+    margin-inline: auto;
+    padding: 10px;
+  }
+  .account,
+  .address,
+  .information{
+    display: grid;
+    position: relative;
+  }
+  .account a,
+  .address a,
+  .information a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  .bg{
+    background-color: #111;
   }
