@@ -130,7 +130,7 @@ background-color: #fff;
   }
 @media (max-width: 375px) {
   .carousel-text{
-    top: 6em;
+    top: 12em;
   }
   .carousel-text h5{
     font-size: 18px;
@@ -140,5 +140,25 @@ background-color: #fff;
   }
   .carousel-text a{
     font-size: 12px;
+  }
+  .slides img{
+    height: 20em;
+  }
+}
+@media (max-width: 320px) {
+  .carousel-text{
+    top: 10em;
+  }
+  .carousel-text h5{
+    font-size: 18px;
+  }
+  .carousel-text p{
+    font-size: 12px;
+  }
+  .carousel-text a{
+    font-size: 10px;
+  }
+  .slides img{
+    height: 20em;
   }
 }
