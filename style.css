@@ -127,6 +127,9 @@ background-color: #fff;
       padding: 0;
       margin: 0;
     }
+    .clear img{
+      width: 100%;
+    }
   }
 @media (max-width: 375px) {
   .carousel-text{
@@ -161,4 +164,8 @@ background-color: #fff;
   .slides img{
     height: 20em;
   }
+}
+.conts{
+  position: relative;
+  margin-top: 5em;
 }
