@@ -130,6 +130,9 @@ background-color: #fff;
     .clear img{
       width: 100%;
     }
+    .about-info{
+      text-align: justify;
+    }
   }
 @media (max-width: 375px) {
   .carousel-text{
